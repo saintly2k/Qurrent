@@ -27,7 +27,8 @@ $lang = [
         "correct"   => "Richtig!",
         "incorrect" => "Falsch!",
         "letter"    => "Buchstabe/Ziffer",
-        "next"  => "Nächster Buchstabe/Ziffer"
+        "next"  => "Nächster Buchstabe/Ziffer",
+        "skip"  => "Überspringen"
     ]
     # 04.05.2022
 ];

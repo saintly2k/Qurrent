@@ -167,6 +167,12 @@ require("langs/".$_COOKIE["qurrent_lang"].".php");
     </div>
 
     <!-- Javascript and other stuff here -->
+    <script type="text/JavaScript">
+
+        function reloadPage() {
+            location.reload();
+        }
+    </script>
     <script src="https://cdn.metroui.org.ua/v4.3.2/js/metro.min.js"></script>
 </body>
 

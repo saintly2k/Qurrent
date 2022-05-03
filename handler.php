@@ -12,10 +12,13 @@ function display_char($lang = "de") {
     $output .= '<img src="'.$cf.'" width="100%" alt="'.$lang["quiz"]["char"].'">';
     $output .= '</div>';
     $output .= '<div class="cell-10">';
-    $output .= '<input autofocus type="text" data-role="materialinput" maxlength="3" placeholder="'.$lang["quiz"]["char_input"].'" name="user">';
+    $output .= '<input tabindex="1" autofocus type="text" data-role="materialinput" maxlength="3" placeholder="'.$lang["quiz"]["char_input"].'" name="user">';
     $output .= '</div>';
-    $output .= '<div class="cell-12">';
-    $output .= '<button class="image-button success" type="submit" name="char" style="width:100%" value="'.$cn.'"><span class="mif-checkmark icon"></span><span class="caption">'.$lang["quiz"]["submit"].'</span></button>';
+    $output .= '<div class="cell-8">';
+    $output .= '<button tabindex="2" class="image-button success" type="submit" name="char" style="width:100%" value="'.$cn.'"><span class="mif-checkmark icon"></span><span class="caption">'.$lang["quiz"]["submit"].'</span></button>';
+    $output .= '</div>';
+    $output .= '<div class="cell-4">';
+    $output .= '<button class="image-button default" style="width:100%" onclick="reloadPage()"><span class="mif-shuffle icon"></span><span class="caption">'.$lang["quiz"]["skip"].'</span></button>';
     $output .= '</div>';
     $output .= '<input type="text" hidden value="'.$cf.'" name="image">';
     $output .= '</div>';
