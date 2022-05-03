@@ -26,6 +26,7 @@ require("langs/".$_COOKIE["qurrent_lang"].".php");
 
     <!-- now other stuff -->
     <title><?= $lang["title"] ?></title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
 
     <!-- Metro_4 -->
     <link rel="stylesheet" href="https://cdn.metroui.org.ua/v4.3.2/css/metro-all.min.css">
