@@ -19,7 +19,7 @@ require("langs/".$_COOKIE["qurrent_lang"].".php");
 
 ?>
 
-<html lang="de">
+<html lang="<?= $_COOKIE["qurrent_lang"] ?>">
 
 <head>
     <!-- this very first -->
