@@ -211,27 +211,27 @@ $chars = [
     ],
     "Ä" => [
         "name"  => "Ä",
-        "file"  => "assets/chars/Ä.png"
+        "file"  => "assets/chars/AE.png"
     ],
     "ä" => [
         "name"  => "ä",
-        "file"  => "assets/chars/_ä.png"
+        "file"  => "assets/chars/_ae.png"
     ],
     "Ö" => [
         "name"  => "Ö",
-        "file"  => "assets/chars/Ö.png"
+        "file"  => "assets/chars/OE.png"
     ],
     "ö" => [
         "name"  => "ö",
-        "file"  => "assets/chars/_ö.png"
+        "file"  => "assets/chars/_oe.png"
     ],
     "Ü" => [
         "name"  => "Ü",
-        "file"  => "assets/chars/Ü.png"
+        "file"  => "assets/chars/UE.png"
     ],
     "ü" => [
         "name"  => "ü",
-        "file"  => "assets/chars/_ü.png"
+        "file"  => "assets/chars/_ue.png"
     ],
     "ch" => [
         "name"  => "ch",
